@@ -1,7 +1,7 @@
 
 import crm from '../assets/svg/projects/crm.gif'
 import mba from '../assets/svg/projects/mba.png'
-import chat from '../assets/svg/projects/chat.png'
+import shop from '../assets/svg/projects/shop.png'
 import library from '../assets/svg/projects/library.png'
 
 export const projectsData = [
@@ -26,12 +26,12 @@ export const projectsData = [
     ,
      {
         id: 3,
-        projectName: 'Chat Application',
-         projectDesc: 'This project enables users to search and chat with others, fostering seamless communication and collaboration',
+        projectName: 'ClassyClutches Application',
+         projectDesc: 'Developed and launched Classyclutches e-commerce platform offering a diverse range of womens handbags, featuring seamless payment integration and utilizing Redux for efficient state management',
         tags: ['React.js', 'Express.js', 'MongoDB', 'Node.js'],
-         code: 'https://github.com/Deepavishali/chat-application',
-         demo: 'https://deepavishali-3rd-pro-chat-app.netlify.app/',
-        image: chat
+         code: 'https://github.com/Deepavishali/classyClutch-Front',
+         demo: 'https://classyclutch.netlify.app/',
+        image: shop
     },
     {
         id: 4,
