@@ -8,10 +8,10 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'CRM Application',
-        projectDesc: 'Customer Relationship Management , It helps customer to raise tickets and engineer would solve the issues',
+        projectDesc: 'Customer Relationship Management , It helps customer to raise tickets and engineer would solve the issues. Admin Credentials are userId:admin , password:qwerty123',
         tags: ['React.js', 'Express.js', 'MongoDB','Node.js'],
         code: 'https://github.com/Deepavishali/crm-front',
-        demo: 'https://crm-app-01d1f.netlify.app/',
+        demo: 'https://deepavishalig-crm-app.netlify.app/',
         image: crm
     },
     {
