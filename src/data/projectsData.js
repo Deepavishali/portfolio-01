@@ -39,7 +39,7 @@ export const projectsData = [
         projectDesc: 'This project serves as a concise demo of a library management system',
         tags: ['React.js', 'Express.js', 'MongoDB', 'Node.js'],
         code: 'https://github.com/Deepavishali/day32.git',
-        demo: 'https://funny-caramel-8bbbd8.netlify.app/',
+        demo: 'https://deepa-library-management.netlify.app/',
         image: library
     }
     ]
