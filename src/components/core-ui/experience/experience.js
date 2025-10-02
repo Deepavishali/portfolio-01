@@ -1,26 +1,26 @@
 import { Container } from '@mui/material';
 import React, { useContext } from 'react';
-import education from '../../../assets/lottie/education.json';
+import experiencejson from '../../../assets/lottie/experiencejson.json';
 import { ThemeContext } from '../../../contexts/theme-context';
-import { educationData } from '../../../data/educationData';
+import { experienceData } from '../../../data/experienceData';
 import AnimationLottie from '../../helper/animation-lottie';
-import EducationCard from './education-card';
-import './education.css';
+import ExperienceCard from './experience-card';
+import './experience.css';
 
-function Education() {
+function Experience() {
 
     const { theme } = useContext(ThemeContext);
     return (
         <div style={{ backgroundColor: theme.secondary }}>
-            <Container className="education" id="resume">
-                <div className="education-body">
-                    <div className="education-image">
-                        <AnimationLottie animationPath={education} />
+            <Container className="experience" id="resume">
+                <div className="experience-body">
+                    <div className="experience-image">
+                        <AnimationLottie animationPath={experiencejson} />
                     </div>
-                    <div className="education-description">
-                        <h1 style={{ color: theme.primary }}>Education</h1>
-                        {educationData.map(edu => (
-                            <EducationCard
+                    <div className="experience-description">
+                        <h1 style={{ color: theme.primary }}>Experience</h1>
+                        {experienceData.map(edu => (
+                            <ExperienceCard
                                 key={edu.id}
                                 id={edu.id}
                                 institution={edu.institution}
@@ -36,4 +36,4 @@ function Education() {
     )
 }
 
-export default Education
+export default Experience
